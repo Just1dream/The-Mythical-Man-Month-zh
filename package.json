@@ -1,7 +1,9 @@
 {
-  "dependenices": "vuepress"
   "scripts": {
     "docs:dev": "vuepress dev docs --open --host 127.0.0.1",
     "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress": "^1.9.7"
   }
 }
